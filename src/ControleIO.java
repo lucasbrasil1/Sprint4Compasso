@@ -21,7 +21,6 @@ public class ControleIO {
 		try {
 			Scanner scan = new Scanner(new File("pessoas.txt"));
 			
-			
 			while(scan.hasNext()) {
 				String linha = scan.nextLine();
 				
